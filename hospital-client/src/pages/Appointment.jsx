@@ -2,9 +2,9 @@ import React, { useContext, useEffect, useState } from "react";
 import { AppContext } from "../context/AppContext";
 import { useNavigate, useParams } from "react-router-dom";
 import { assets } from "../assets/assets";
-import RelatedDoctors from "../components/relatedDoctors";
 import { toast } from "react-toastify";
 import axios from "axios";
+import RelatedDoctors from "../components/RelatedDoctors";
 
 const Appointment = () => {
   const navigate = useNavigate();
